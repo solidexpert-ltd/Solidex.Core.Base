@@ -1,0 +1,63 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/kristina/net/solidexcrm/PhotoMSK/Core/Solidex.Core.Base/Solidex.Core.Base.csproj": {}
+  },
+  "projects": {
+    "/Users/kristina/net/solidexcrm/PhotoMSK/Core/Solidex.Core.Base/Solidex.Core.Base.csproj": {
+      "version": "1.0.4",
+      "restore": {
+        "projectUniqueName": "/Users/kristina/net/solidexcrm/PhotoMSK/Core/Solidex.Core.Base/Solidex.Core.Base.csproj",
+        "projectName": "Solidex.Core.Base",
+        "projectPath": "/Users/kristina/net/solidexcrm/PhotoMSK/Core/Solidex.Core.Base/Solidex.Core.Base.csproj",
+        "packagesPath": "/Users/kristina/.nuget/packages/",
+        "outputPath": "/Users/kristina/net/solidexcrm/PhotoMSK/Core/Solidex.Core.Base/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/kristina/net/solidexcrm/PhotoMSK/.nuget/NuGet.Config",
+          "/Users/kristina/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://repo.solidexpert.ltd/repository/nuget-hosted/": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.100/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
