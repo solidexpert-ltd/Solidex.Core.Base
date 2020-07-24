@@ -12,6 +12,7 @@ namespace Solidex.Core.Base.Translate
             var dictionary = new Dictionary<char, string>()
             {
                 {Char.Parse("а"), "a" },
+                {Char.Parse("б"), "b" },
                 {Char.Parse("в"), "v" },
                 {Char.Parse("г"), "g" },
                 {Char.Parse("д"), "d" },
