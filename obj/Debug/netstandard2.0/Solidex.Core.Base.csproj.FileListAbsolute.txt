@@ -1,8 +1,0 @@
-/Users/kristina/net/solidexcrm/PhotoMSK/Core/Solidex.Core.Base/bin/Debug/netstandard2.0/Solidex.Core.Base.deps.json
-/Users/kristina/net/solidexcrm/PhotoMSK/Core/Solidex.Core.Base/bin/Debug/netstandard2.0/Solidex.Core.Base.dll
-/Users/kristina/net/solidexcrm/PhotoMSK/Core/Solidex.Core.Base/bin/Debug/netstandard2.0/Solidex.Core.Base.pdb
-/Users/kristina/net/solidexcrm/PhotoMSK/Core/Solidex.Core.Base/obj/Debug/netstandard2.0/Solidex.Core.Base.AssemblyInfoInputs.cache
-/Users/kristina/net/solidexcrm/PhotoMSK/Core/Solidex.Core.Base/obj/Debug/netstandard2.0/Solidex.Core.Base.AssemblyInfo.cs
-/Users/kristina/net/solidexcrm/PhotoMSK/Core/Solidex.Core.Base/obj/Debug/netstandard2.0/Solidex.Core.Base.dll
-/Users/kristina/net/solidexcrm/PhotoMSK/Core/Solidex.Core.Base/obj/Debug/netstandard2.0/Solidex.Core.Base.pdb
-/Users/kristina/net/solidexcrm/PhotoMSK/Core/Solidex.Core.Base/obj/Debug/netstandard2.0/Solidex.Core.Base.csprojAssemblyReference.cache
