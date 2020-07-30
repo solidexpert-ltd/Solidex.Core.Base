@@ -1,4 +1,4 @@
-﻿namespace Solidex.Core.Base.Enums
+﻿namespace Solidex.Core.ViewModels.Enums
 {
     //ISO 4217
     public enum Currency
