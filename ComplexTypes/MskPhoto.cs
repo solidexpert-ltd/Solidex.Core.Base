@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Solidex.Core.Base.ComplexTypes
+namespace Solidex.Core.ViewModels.ComplexTypes
 {
     public class MskPhoto
     {

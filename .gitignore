@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 # Created by https://www.toptal.com/developers/gitignore/api/visualstudio,visualstudiocode,rider,intellij,aspnetcore
 # Edit at https://www.toptal.com/developers/gitignore?templates=visualstudio,visualstudiocode,rider,intellij,aspnetcore
@@ -643,3 +644,8 @@ MigrationBackup/
 .ionide/
 
 # End of https://www.toptal.com/developers/gitignore/api/visualstudio,visualstudiocode,rider,intellij,aspnetcore
+=======
+/.idea/**
+/bin/**
+/obj/**
+>>>>>>> dev
