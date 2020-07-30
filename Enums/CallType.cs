@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Solidex.Core.ViewModels.Enums
+namespace Solidex.Core.Base.Enums
 {
     [Flags]
     public enum CallType

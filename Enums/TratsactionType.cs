@@ -1,4 +1,4 @@
-namespace Solidex.Core.ViewModels.Enums
+namespace Solidex.Core.Base.Enums
 {
     public enum TratsactionType
     {

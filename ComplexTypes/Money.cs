@@ -1,7 +1,7 @@
 ﻿using System;
-using Solidex.Core.ViewModels.Enums;
+using Solidex.Core.Base.Enums;
 
-namespace Solidex.Core.ViewModels.ComplexTypes
+namespace Solidex.Core.Base.ComplexTypes
 {
     public class Money
     {

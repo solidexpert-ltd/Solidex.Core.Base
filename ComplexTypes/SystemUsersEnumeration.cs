@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Microcervices.Core.ComplexTypes
+namespace Solidex.Core.Base.ComplexTypes
 {
     public class SystemUsersEnumeration: TypeEnumeration
     {

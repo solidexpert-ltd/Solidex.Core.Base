@@ -1,4 +1,4 @@
-﻿namespace Solidex.Core.Data.EntityTypes
+﻿namespace Solidex.Core.Base.Enums
 {
     public enum ClientType
     {

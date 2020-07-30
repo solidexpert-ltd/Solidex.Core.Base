@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Solidex.Core.ViewModels.ComplexTypes
+namespace Solidex.Core.Base.ComplexTypes
 {
     public class DayWeek : IComparable<DayOfWeek>
     {
