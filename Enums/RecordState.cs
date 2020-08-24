@@ -1,7 +1,9 @@
 namespace Solidex.Core.Base.Enums
 {
-    public class RecordState
+    public enum RecordState
     {
-        
+        Active = 0,
+        Draft = 1,
+        Deleted = 2
     }
 }
