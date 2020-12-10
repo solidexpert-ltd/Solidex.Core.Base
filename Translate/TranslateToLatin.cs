@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using System.Text;
 using System.Text.RegularExpressions;
-using System.Xml;
 
 namespace Solidex.Core.Base.Translate
 {
