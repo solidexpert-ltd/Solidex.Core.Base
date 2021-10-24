@@ -13,7 +13,5 @@ namespace Solidex.Core.Base.Abstraction
         public abstract string GetName();
         public abstract string GetRouteName();
         public abstract string GetCalendarType();
-        
-        //public virtual ICollection<Event> Events { get; set; }
     }
 }
