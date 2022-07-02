@@ -6,7 +6,15 @@
     <AssemblyVersion>1.0.*</AssemblyVersion>
     <Deterministic>false</Deterministic>
     <Version>1.0.4</Version>
-    <LangVersion>8</LangVersion>
+    <LangVersion>10</LangVersion>
+  </PropertyGroup>
+
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DocumentationFile>bin\Debug\netcoreapp3.1\Solidex.Core.Base.xml</DocumentationFile>
+  </PropertyGroup>
+
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DocumentationFile>bin\Release\netcoreapp3.1\Solidex.Core.Base.xml</DocumentationFile>
   </PropertyGroup>
 
 
