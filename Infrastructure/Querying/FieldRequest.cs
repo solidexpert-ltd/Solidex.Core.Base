@@ -1,4 +1,4 @@
-namespace  Solidex.Core.Base.Infrastructure.Querying
+namespace Solidex.Core.Base.Infrastructure.Querying
 {
     public class FieldRequest<T> where T : struct
     {
@@ -6,14 +6,20 @@ namespace  Solidex.Core.Base.Infrastructure.Querying
         /// Great then
         /// </summary>
         public T? Gt { get; set; }
+
         /// <summary>
         /// Less then
         /// </summary>
         public T? Lt { get; set; }
+
         /// <summary>
         /// Equal
         /// </summary>
         public T? Eq { get; set; }
+
+        /// <summary>
+        /// In list 
+        /// </summary>
         public T[] In { get; set; }
     }
 }

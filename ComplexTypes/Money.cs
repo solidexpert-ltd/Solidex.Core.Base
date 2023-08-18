@@ -24,14 +24,14 @@ namespace Solidex.Core.Base.ComplexTypes
         public static Money operator +(Money c1, Money c2)
         {
             if (c1.Currency != c2.Currency)
-                throw new InvalidOperationException();
+                throw new InvalidOperationException("Cannot add different currencies");
             return new Money(c1.Amount + c2.Amount, c1.Currency);
         }
 
         public static Money operator -(Money c1, Money c2)
         {
             if (c1.Currency != c2.Currency)
-                throw new InvalidOperationException();
+                throw new InvalidOperationException("Cannot subtract different currencies");
             return new Money(c1.Amount - c2.Amount, c1.Currency);
         }
 

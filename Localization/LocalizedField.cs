@@ -5,9 +5,9 @@ using Solidex.Core.Base.Abstraction;
 namespace Solidex.Core.Base.Localization;
 
 /// <summary>
-/// Translation Field
+/// Translation LocalizedField
 /// </summary>
-public class Field : IEntity
+public class LocalizedField : IEntity
 {
     #region IEntity
 
