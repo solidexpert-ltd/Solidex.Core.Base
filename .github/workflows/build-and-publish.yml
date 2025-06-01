@@ -29,7 +29,8 @@ jobs:
     - name: Pack
       run: dotnet pack -p:PackageVersion=1.1.${{ github.run_number }} -o ./ --configuration Release
 
+    - name: Setup GitHub Packages
+      run: dotnet nuget add source --username siarhei-shchypanau --password ${{ secrets.NUGET_API_KEY }} --store-password-in-clear-text --name github "https://nuget.pkg.github.com/solidexpert-ltd/index.json"
+
     - name: Publish to GitHub Packages
-      run: dotnet nuget push Solidex.Core.Base.${{ github.run_number }}.nupkg --source github
-      env:
-        NUGET_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      run: dotnet nuget push Solidex.Core.Base.1.1.${{ github.run_number }}.nupkg --source github
