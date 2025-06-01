@@ -1,4 +1,9 @@
 /.idea/**
 /bin/**
 /obj/**
-
+/.vs/**
+*.user
+*.suo
+*.vsp
+*.vspx
+*.sln.iml
