@@ -6,17 +6,7 @@
     <Deterministic>false</Deterministic>
     <Version>1.0.4</Version>
     <LangVersion>10</LangVersion>
-    <TargetFrameworks>net6.0;netcoreapp3.1;net7.0</TargetFrameworks>
+    <TargetFrameworks>net7.0</TargetFrameworks>
   </PropertyGroup>
-
-  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
-    <DocumentationFile>bin\Debug\netcoreapp3.1\Solidex.Core.Base.xml</DocumentationFile>
-  </PropertyGroup>
-
-  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
-    <DocumentationFile>bin\Release\netcoreapp3.1\Solidex.Core.Base.xml</DocumentationFile>
-  </PropertyGroup>
-
-
 
 </Project>
