@@ -26,6 +26,7 @@ dotnet add package Solidex.Core.Base --version 1.0.4
 Install-Package Solidex.Core.Base -Version 1.0.4
 ```
 
+```plaintext
 Solidex.Core.Base/
 ├── Abstraction/             # Core interfaces and abstract classes
 ├── ComplexTypes/            # Reusable data structures
@@ -36,3 +37,4 @@ Solidex.Core.Base/
 ├── Responses/               # Standardized response models
 ├── Translate/               # Translation utilities
 └── Solidex.Core.Base.csproj # Project file
+```
