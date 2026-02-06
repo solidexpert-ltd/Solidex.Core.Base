@@ -5,8 +5,8 @@
     <AssemblyVersion>1.0.*</AssemblyVersion>
     <Deterministic>false</Deterministic>
     <Version>1.0.4</Version>
-    <LangVersion>10</LangVersion>
-    <TargetFrameworks>net7.0</TargetFrameworks>
+    <LangVersion>latest</LangVersion>
+    <TargetFrameworks>net10.0</TargetFrameworks>
   </PropertyGroup>
 
 </Project>
